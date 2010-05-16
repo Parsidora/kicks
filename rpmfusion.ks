@@ -1,7 +1,9 @@
 # rpm fusion repo
 
-repo --name=rpmfusion-free --baseurl=file:///home/yum_repos/rpmfusion-free
-repo --name=rpmfusion-nonfree --baseurl=file:///home/yum_repos/rpmfusion-nonfree
+repo --name=rpmfusion-free-released --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-13&arch=$basearch
+repo --name=rpmfusion-free-updates --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-released-13&arch=$basearch
+repo --name=rpmfusion-nonfree --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-13&arch=$basearch --includepkgs=rpmfusion-nonfree-release
+repo --name=rpmfusion-nonfree-updates --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-13&arch=$basearch --includepkgs=rpmfusion-nonfree-release
 
 %packages
 ## RPM Fusion packages normally come via comps.xml, some adjustments below this line
