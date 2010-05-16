@@ -10,9 +10,10 @@
 #part iso --size=4998
 
 # Add the repos you wish to use to compose here.  At least one of them needs group data.
-#repo --name=release --mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=fedora-11&arch=$basearch --exclude kernel*debug* --exclude kernel-kdump* --exclude syslog-ng --exclude java-1.5.0-gcj-devel --exclude astronomy-bookmarks --exclude generic* --exclude java-1.5.0-gcj-javadoc --exclude btanks --exclude GConf2-dbus --exclude bluez-gnome
-repo --name=release --baseurl=file:///home/yum_repos/fedora/ --exclude fedora-logos --exclude fedora-release
-repo --name=releasedvd --baseurl=file:///opt/ --exclude fedora-logos --exclude fedora-release
+repo --name=fedora --mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=fedora-$releasever&arch=$basearch --exclude kernel*debug* --exclude kernel-kdump* --exclude syslog-ng --exclude java-1.5.0-gcj-devel --exclude astronomy-bookmarks --exclude generic* --exclude java-1.5.0-gcj-javadoc --exclude btanks --exclude GConf2-dbus* --exclude bluez-gnome --exclude xfce4-notifyd --exclude fedora-logos --exclude fedora-release
+#repo --name=fedora-source  --mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=fedora-source-$releasever&arch=$basearch
+#repo --name=release --baseurl=file:///home/yum_repos/fedora/ --exclude fedora-logos --exclude fedora-release
+#repo --name=releasedvd --baseurl=file:///opt/ --exclude fedora-logos --exclude fedora-release
 
 # locale settings
 lang fa_IR.UTF-8
@@ -27,7 +28,6 @@ keyboard us
 tcsh
 kernel*
 dracut-*
-
 # Desktop Packages
 @kde-desktop
 echo-icon-theme
@@ -46,7 +46,6 @@ k3b
 @system-tools
 mc
 wireshark-gnome
-
 # Devel packages
 @development-libs
 @development-tools
@@ -55,7 +54,6 @@ wireshark-gnome
 @kde-software-development
 @web-development
 @x-software-development
-
 # Server packages
 @dns-server
 @ftp-server
@@ -67,21 +65,14 @@ wireshark-gnome
 @smb-server
 @sql-server
 @web-server
-
 # Keep dap off the install media, makes Eng & Sci show up
 -dap-server-cgi
-
 # Virt group
 @virtualization --optional
-
 # filesystem stuff
-reiserfs-utils
-xfsprogs
-jfsutils
-
+@filesystems
 # Languages
 @persian-support
-
 -@afrikaans-support
 -@albanian-support
 -@arabic-support

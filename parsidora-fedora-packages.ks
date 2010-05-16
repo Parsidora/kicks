@@ -3,7 +3,7 @@
 %packages
 gnome-applet-jalali-calendar
 stardict
-#minbar
+minbar
 
 # Effects
 ccsm
@@ -17,14 +17,14 @@ avidemux-gtk
 # Tools
 bash-completion
 #ext3grep
-#nautilus-open-terminal
+nautilus-open-terminal
 #nautilus-beesu-manager
 #beesu
 #tor
-#wine.i686
+wine.i686
 #privoxy
 #powertop
-#testdisk
+testdisk
 #pdfedit?
 gnochm
 #cabextract

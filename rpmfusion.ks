@@ -5,6 +5,8 @@ repo --name=rpmfusion-nonfree --baseurl=file:///home/yum_repos/rpmfusion-nonfree
 
 %packages
 ## RPM Fusion packages normally come via comps.xml, some adjustments below this line
+rpmfusion-free-release
+rpmfusion-nonfree-release
 gstreamer-plugins-bad
 gstreamer-plugins-bad-extras
 ffmpeg
@@ -13,13 +15,9 @@ smplayer
 #Cg
 
 # Hardware support
-#akmod*
-#xorg-x11-drv-fglrx
-#xorg-x11-drv-nvidia
-#xorg-x11-drv-nvidia-173xx
-#xorg-x11-drv-nvidia-96xx
-#xorg-x11-drv-nvidia-beta
-#broadcom-wl
+kmod-kqemu
+kmod-nvidia
+broadcom-wl
 %end
 
 %post
