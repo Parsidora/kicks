@@ -4,7 +4,7 @@ repo --name=rpmfusion-free-released --mirrorlist=http://mirrors.rpmfusion.org/mi
 repo --name=rpmfusion-free-updates --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-released-13&arch=$basearch
 repo --name=rpmfusion-nonfree --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-13&arch=$basearch
 repo --name=rpmfusion-nonfree-updates --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-13&arch=$basearch
-repo --name=livna --mirrorlist=http://rpm.livna.org/repo/13/$basearch
+repo --name=livna --baseurl=http://rpm.livna.org/repo/13/$basearch
 # --includepkgs=rpmfusion-nonfree-release
 %packages
 ## RPM Fusion packages normally come via comps.xml, some adjustments below this line

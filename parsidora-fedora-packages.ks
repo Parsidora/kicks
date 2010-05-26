@@ -52,7 +52,6 @@ mail-notification
 mesa-dri-drivers-experimental
 nautilus-open-terminal
 nautilus-beesu-manager
-tracker
 tracker-search-tool
 wammu
 xmonad
