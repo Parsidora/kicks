@@ -2,24 +2,27 @@
 
 repo --name=rpmfusion-free-released --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-13&arch=$basearch
 repo --name=rpmfusion-free-updates --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-released-13&arch=$basearch
-repo --name=rpmfusion-nonfree --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-13&arch=$basearch --includepkgs=rpmfusion-nonfree-release
-repo --name=rpmfusion-nonfree-updates --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-13&arch=$basearch --includepkgs=rpmfusion-nonfree-release
-
+repo --name=rpmfusion-nonfree --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-13&arch=$basearch
+repo --name=rpmfusion-nonfree-updates --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-13&arch=$basearch
+# --includepkgs=rpmfusion-nonfree-release
 %packages
 ## RPM Fusion packages normally come via comps.xml, some adjustments below this line
 rpmfusion-free-release
 rpmfusion-nonfree-release
 gstreamer-plugins-bad
-gstreamer-plugins-bad-extras
+gstreamer-plugins-bad-nonfree
 ffmpeg
 vlc
 smplayer
-#Cg
+Cg
+avidemux-gtk
+avidemux-qt
+ogre-cg
 
 # Hardware support
-kmod-kqemu
-kmod-nvidia
-broadcom-wl
+akmod-kqemu
+akmod-nvidia
+akmod-wl
 %end
 
 %post

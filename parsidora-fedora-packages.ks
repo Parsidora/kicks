@@ -1,6 +1,7 @@
 %include parsidora-base.ks
 
 %packages
+# Persian/Iranian tools
 gnome-applet-jalali-calendar
 stardict
 minbar
@@ -8,43 +9,60 @@ minbar
 # Effects
 ccsm
 compizconfig-backend-gconf
-# emerald
-# emerald-themes
+emerald
+emerald-themes
+avant-window-navigator
 
-# Multimedia
-avidemux-gtk
+# Multimedia/Graphic
+blender
 
 # Tools
 bash-completion
-#ext3grep
+ext3grep
 nautilus-open-terminal
-#nautilus-beesu-manager
-#beesu
-#tor
+nautilus-beesu-manager
+beesu
 wine.i686
-#privoxy
-#powertop
+powertop
 testdisk
-#pdfedit?
-gnochm
-#cabextract
-pidgin
-#blender
-#p7zip
-#p7zip-plugins
-# RoboCup related?
-#monodevelop
-qt-creator
-#kile
-#texmaker
-#dia
+cabextract
+p7zip
+p7zip-plugins
+chntpw
+yakuake
 
-# octave?!
+# Internet/Network
+aria2
+pidgin
+privoxy
+tor
+
+# Document management
+pdfedit
+gnochm
+kile
+texmaker
+dia
+
+# Development
+monodevelop
+qt-creator
+cegui-devel
+ogre-devel
+ois-devel
+opencv-devel
+
+# Scientific
+# RoboCup related?
+octave
+octave-forge*
+qtoctave
 
 # Games
-#dosbox?
-#neverball
-#numptyphysics
-#csmash
+dosbox
+neverball
+numptyphysics
+bzflag
+csmash
 
 %end

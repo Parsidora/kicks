@@ -1,5 +1,5 @@
 # add a repo description
-repo --name=extrarpms --baseurl=file:///home/yum_repos/non_fedora
+repo --name=extrarpms --baseurl=file:///root/non_fedora/
 
 %packages
 # unbrand:
