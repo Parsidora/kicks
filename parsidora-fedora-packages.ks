@@ -7,20 +7,28 @@ stardict
 minbar
 
 # Effects
+avant-window-navigator
 ccsm
+compiz-fusion
+compiz-fusion-extras
+compiz-fusion-extras-gnome
+compiz-fusion-gnome
+compizconfig-python
 compizconfig-backend-gconf
 emerald
 emerald-themes
-avant-window-navigator
+fusion-icon-gtk
 
 # Multimedia/Graphic
+Miro
 blender
+inkscape
+inkscape-docs
+pitivi
 
 # Tools
 bash-completion
 ext3grep
-nautilus-open-terminal
-nautilus-beesu-manager
 beesu
 wine.i686
 powertop
@@ -29,13 +37,31 @@ cabextract
 p7zip
 p7zip-plugins
 chntpw
+hdapsd
+yumex
+
+# Desktop
+@lxde-desktop
+gnome-applet-sensors
+gnome-do
+gtk-recordmydesktop
+mail-notification
+mesa-dri-drivers-experimental
+nautilus-open-terminal
+nautilus-beesu-manager
+wammu
+xmonad
 yakuake
 
 # Internet/Network
+aircrack-ng
 aria2
+gyachi
+kismet
 pidgin
 privoxy
 tor
+thunderbird-lightning
 
 # Document management
 pdfedit
@@ -45,6 +71,8 @@ texmaker
 dia
 
 # Development
+eclipse-cmakeed
+eclipse-shelled
 monodevelop
 qt-creator
 cegui-devel
@@ -60,9 +88,11 @@ qtoctave
 
 # Games
 dosbox
-neverball
-numptyphysics
 bzflag
 csmash
+chromium-bsu
+foobillard
+neverball
+numptyphysics
 
 %end
