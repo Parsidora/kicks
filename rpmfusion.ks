@@ -13,19 +13,33 @@ rpmfusion-nonfree-release
 livna-release
 gstreamer-plugins-bad
 gstreamer-plugins-bad-nonfree
+
 ffmpeg
+lame
 libdvdcss
+k9copy
 vlc
 smplayer
-Cg
+h264enc
+mencoder
 avidemux-gtk
 avidemux-qt
+xine-lib-extras-freeworld
+x264
+traverso
+vobcopy
+
+Cg
 ogre-cg
+unace
+paintdotnet
+VirtualBox-OSE
 
 # Hardware support
 akmod-kqemu
 akmod-nvidia
 akmod-wl
+akmod-*
 %end
 
 %post

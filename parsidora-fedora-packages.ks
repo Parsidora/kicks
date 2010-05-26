@@ -21,6 +21,8 @@ fusion-icon-gtk
 
 # Multimedia/Graphic
 Miro
+banshee
+banshee-musicbrainz
 blender
 inkscape
 inkscape-docs
@@ -44,11 +46,14 @@ yumex
 @lxde-desktop
 gnome-applet-sensors
 gnome-do
+gnokii
 gtk-recordmydesktop
 mail-notification
 mesa-dri-drivers-experimental
 nautilus-open-terminal
 nautilus-beesu-manager
+tracker
+tracker-search-tool
 wammu
 xmonad
 yakuake
@@ -79,14 +84,21 @@ cegui-devel
 ogre-devel
 ois-devel
 opencv-devel
+wxGTK-devel
 
 # Scientific
 # RoboCup related?
+geda-*
+gspiceui
+ngspice
+ngspice-doc
 octave
 octave-forge*
 qtoctave
+xcircuit
 
 # Games
+crack-attack
 dosbox
 bzflag
 csmash
