@@ -17,7 +17,7 @@ compizconfig-python
 compizconfig-backend-gconf
 emerald
 emerald-themes
-fusion-icon-gtk
+fusion-icon*
 
 # Multimedia/Graphic
 Miro
@@ -26,34 +26,44 @@ banshee-musicbrainz
 blender
 inkscape
 inkscape-docs
+flumotion
 pitivi
 
 # Tools
 bash-completion
-ext3grep
 beesu
-wine.i686
-powertop
-testdisk
 cabextract
+chntpw
+deltaiso
+ext3grep
+hdapsd
 p7zip
 p7zip-plugins
-chntpw
-hdapsd
+powertop
+redhat-lsb*
+syslinux
+testdisk
+wine.i686
 yumex
 
 # Desktop
 @lxde-desktop
 gnome-applet-sensors
 gnome-do
+gnome-do-*
 gnokii
+gnucash
 gtk-recordmydesktop
+impressive
 mail-notification
 mesa-dri-drivers-experimental
 nautilus-open-terminal
 nautilus-beesu-manager
+plymouth-theme-solar
 tracker-search-tool
 wammu
+wordtrans-kde
+xcompmgr
 xmonad
 yakuake
 
@@ -61,11 +71,16 @@ yakuake
 aircrack-ng
 aria2
 gyachi
+epiphany
+gwget
 kismet
-pidgin
+pidgin*
+-pidgin-devel
+purple-*
 privoxy
 tor
 thunderbird-lightning
+vidalia
 
 # Document management
 pdfedit
@@ -75,34 +90,48 @@ texmaker
 dia
 
 # Development
-eclipse-cmakeed
-eclipse-shelled
-monodevelop
-qt-creator
 cegui-devel
+eclipse-*
+-eclipse-nls*
+gtk-sharp2-devel
+intellij-idea*
+libdc1394-devel
+libraw1394-devel
+monodevelop
+netbeans*
+qt-creator
+qt-doc
 ogre-devel
 ois-devel
 opencv-devel
+OpenSceneGraph-devel
+tinyxml-devel
 wxGTK-devel
 
 # Scientific
-# RoboCup related?
 geda-*
 gspiceui
+libsvm*
 ngspice
 ngspice-doc
 octave
 octave-forge*
 qtoctave
+rcssserver-gui
+rcsslogplayer
+rcssserver-devel
+rcssserver3d*
 xcircuit
 
 # Games
-crack-attack
-dosbox
+btanks
 bzflag
 csmash
 chromium-bsu
+crack-attack
+dosbox
 foobillard
+frozen-bubble
 neverball
 numptyphysics
 
