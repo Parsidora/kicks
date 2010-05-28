@@ -70,14 +70,20 @@ yakuake
 # Internet/Network
 aircrack-ng
 aria2
-gyachi
+dsniff
 epiphany
+ettercap
+iptraf
+gyachi
 gwget
 kismet
+nessus*
+ngrep
 pidgin*
 -pidgin-devel
 purple-*
 privoxy
+tiger
 tor
 thunderbird-lightning
 vidalia
@@ -108,9 +114,24 @@ OpenSceneGraph-devel
 tinyxml-devel
 wxGTK-devel
 
+# Embedded 
+arm-gp2x-linux-SDL
+arm-gp2x-linux-binutils
+arm-gp2x-linux-gcc
+arm-gp2x-linux-gcc-c++
+arm-gp2x-linux-glibc
+arm-gp2x-linux-kernel-headers
+arm-gp2x-linux-zlib
+avr*
+gtkterm
+
 # Scientific
+dfu-programmer
+electric
 geda-*
 gspiceui
+kicad
+ktechlab
 libsvm*
 ngspice
 ngspice-doc
@@ -121,6 +142,7 @@ rcssserver-gui
 rcsslogplayer
 rcssserver-devel
 rcssserver3d*
+uisp
 xcircuit
 
 # Games
@@ -130,9 +152,16 @@ csmash
 chromium-bsu
 crack-attack
 dosbox
+extremetuxracer
 foobillard
+freeciv
 frozen-bubble
+glest
+maniadrive*
 neverball
 numptyphysics
+scorched3d
+supertux
+wesnoth*
 
 %end
