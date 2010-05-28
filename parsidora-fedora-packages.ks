@@ -85,7 +85,6 @@ purple-*
 privoxy
 tiger
 tor
-thunderbird-lightning
 vidalia
 
 # Document management
@@ -110,7 +109,6 @@ qt-doc
 ogre-devel
 ois-devel
 opencv-devel
-OpenSceneGraph-devel
 tinyxml-devel
 wxGTK-devel
 
