@@ -84,8 +84,96 @@ pidgin*
 purple-*
 privoxy
 tiger
+thunderbird-lightning
 tor
 vidalia
+
+# Security stuff from the Fedora Security Labgs Spin
+###################### Security Stuffs ############################
+security-menus
+
+# Reconnaissance
+dsniff
+hping3
+nc6
+nc
+ncrack
+nessus-client
+nessus-gui
+nessus-server
+ngrep
+nmap
+nmap-frontend
+p0f
+sing
+scanssh
+scapy
+socat
+tcpdump
+tiger
+unicornscan
+wireshark-gnome
+xprobe2
+nbtscan
+tcpxtract
+firewalk
+hunt
+
+argus
+nbtscan
+ettercap
+ettercap-gtk
+iptraf
+pcapdiff
+picviz
+etherape
+lynis
+
+# Forensics
+chkrootkit
+clamav
+dd_rescue
+gparted
+hexedit
+prelude-lml
+testdisk
+foremost
+mhonarc
+sectool-gui
+rkhunter
+scanmem
+sleuthkit
+unhide
+examiner
+dc3dd
+
+# Wireless
+aircrack-ng
+airsnort
+kismet
+
+# Code analysis
+splint
+pscan
+flawfinder
+rats
+
+# Intrusion detection
+snort
+aide
+tripwire
+labrea
+honeyd
+pads
+prewikka
+prelude-notify
+prelude-manager
+nebula
+
+# Password cracking
+john
+ophcrack
+# End of security stuff
 
 # Document management
 pdfedit
