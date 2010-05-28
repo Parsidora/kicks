@@ -21,6 +21,7 @@ fusion-icon*
 
 # Multimedia/Graphic
 Miro
+agave
 banshee
 banshee-musicbrainz
 blender
@@ -28,6 +29,7 @@ inkscape
 inkscape-docs
 flumotion
 pitivi
+xournal
 
 # Tools
 bash-completion
@@ -242,12 +244,14 @@ extremetuxracer
 foobillard
 freeciv
 frozen-bubble
+gl-117
 glest
 maniadrive*
 neverball
 numptyphysics
 scorched3d
 supertux
+vdrift*
 wesnoth*
 
 %end
